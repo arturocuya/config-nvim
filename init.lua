@@ -499,3 +499,5 @@ vim.keymap.set('n', '<C-j>', function () require("harpoon.ui").nav_file(2) end)
 vim.keymap.set('n', '<C-k>', function () require("harpoon.ui").nav_file(3) end)
 vim.keymap.set('n', '<C-l>', function () require("harpoon.ui").nav_file(4) end)
 
+vim.keymap.set('n', '<leader>pf', ':Explore<CR>', { noremap = true, silent = true })
+
